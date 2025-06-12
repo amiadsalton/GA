@@ -1,0 +1,8 @@
+<map id="CPopulation" name="CPopulation">
+<area shape="rect" id="node2" href="$da/dee/class_c_genotype_data.html" title="Interface for case and control dataset. " alt="" coords="167,625,369,805"/>
+<area shape="rect" id="node4" href="$df/d02/struct_c_genotype_data_1_1_c_snp_data.html" title="Input data for one SNP. " alt="" coords="5,287,187,393"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="56,147,136,224"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="33,5,159,97"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="282,301,395,379"/>
+<area shape="rect" id="node10" href="$dc/dc3/class_c_selection.html" title="Interface for selection algorithm. " alt="" coords="394,662,526,769"/>
+</map>

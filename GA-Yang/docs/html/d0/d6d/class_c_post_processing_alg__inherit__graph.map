@@ -1,0 +1,4 @@
+<map id="CPostProcessingAlg" name="CPostProcessingAlg">
+<area shape="rect" id="node2" href="$d8/d69/class_c_clustering_alg.html" title="{CClusteringAlg\n|&#45; mBestSnpsPerRun\l&#45; mBestChromosome\l&#45; mBestChromosomePerRun\l&#45; mBestBarcodePerRun\l&#45; mAlgorithmResults\l&#45; mCurrentOrder\l&#45; mAlgorithm\l|+ CClusteringAlg()\l+ ~CClusteringAlg()\l+ Update()\l+ DerivedExecute()\l+ Print()\l+ UpdateGenotypeData()\l}" alt="" coords="5,233,193,472"/>
+<area shape="rect" id="node3" href="$dd/dd3/class_c_continuity_alg.html" title="{CContinuityAlg\n|&#45; mBestChromosomesPerRun\l&#45; mAlgorithmResults\l|+ CContinuityAlg()\l+ ~CContinuityAlg()\l+ Update()\l+ DerivedExecute()\l+ Print()\l+ UpdateGenotypeData()\l&#45; PrintAllBests()\l}" alt="" coords="218,263,413,443"/>
+</map>

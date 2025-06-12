@@ -1,0 +1,27 @@
+# Number of SNPs
+Number=22000
+# Starting Chromosom
+Start=1
+# End Chromosome
+End=22
+# Barcode list
+#Barcode=rs722208,rs6486431,rs144848,rs8070179,rs738722
+# 
+# BRC
+# Barcode=rs722208,rs6486431,rs144848,rs1799949,rs738722
+# BarcodeChr=6,11,13,17,22
+#
+# Low MAF
+# Barcode=rs12125299,rs12107009,rs17118374,rs10743624,rs11077722
+# BarcodeChr=1,3,8,12,17
+#
+# High MAF
+Barcode=rs6858752,rs17143147,rs11136074,rs4786150,rs2249573
+#Barcode Chromosomes
+BarcodeChr=4,7,8,16,20
+#
+#
+# Generate also the selected SNPs by chance
+BarcodeSize=5
+MinMAF=0.05
+MaxMAF=0.495

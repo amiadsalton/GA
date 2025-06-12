@@ -1,0 +1,52 @@
+# Output Directory
+Dir=
+# Barcode length
+Length=5
+#
+# BRC
+# Selected=rs722208,rs6486431,rs144848,rs1799949,rs738722, 
+# MAF=0.275,0.125,0.29166666666667,0.35,0.366666666667
+#
+# Low MAF
+Selected=rs12125299,rs12107009,rs17118374,rs10743624,rs11077722
+MAF=0.067,0.058,0.058,0.058,0.067
+#
+# High MAF
+# Selected=rs6858752,rs17143147,rs11136074,rs4786150,rs2249573
+# MAF=0.4,0.4,0.4,0.4,0.4
+#
+# Random 1
+# Chr=1,5,11,18,22,
+# Selected=rs10493590,rs16888684,rs2714088,rs11659813,rs4820338
+# MAF=0.133,0.069,0.392,0.208,0.283
+#
+#
+# Random 2
+# Chr=2,8,16,18,21,
+# Selected=rs12464842,rs12674492,rs11642785,rs606478,rs12481867
+# MAF=0.178,0.283,0.375,0.275,0.153
+#
+# Random Order 3
+# Chr=4,10,21
+# Selected=rs13135319,rs3740153,rs469490
+# MAF=0.112,0.225,0.067
+#
+# Enrichment factor that dependes on the number of occurences of Genotype 2
+RationalFactor=1.5
+# Nominam gradient: min + pow(pow((max-min),1/length), n)   , where n is the number of occurences of Genotype 2
+NominalMin=13
+NominalMax=37
+PopulationSize=100000
+# Exponent for minimum gradient that is created by power of 2 (when all genotypes are of type 2) 
+# NominalExponent=1.0
+# Factors that give piority to combinations with multiple gentotype  "2". It creates the gradient. 
+# Values are double precision numbers, starting from factor for 0 occurences of genotype 2 (build by 1.02 in power of 2: 0, 1, 4,8,12,16,20,32,)
+#Factors=1.0,1.02,1.0824,1.1717,1.2684,1.3728,1.4859,1.8845
+#Factors=1.0,1.02,1.0612,1.126,1.195,1.346
+# Power of 1.02: 0,1,2,3,4,5
+# Factors=1.0,1.02,1.0404,1.0613,1.0824,1.1041
+# Power of 1.04: 0,1,2,3,4,5
+# Factors=1.0,1.04,1.0816,1.125,1.17,1.217
+# Power of 1.06: 0,1,2,3,4,5
+# Factors=1.0,1.06,1.124,1.191,1.262,1.338
+

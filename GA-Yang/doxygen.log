@@ -1,0 +1,42 @@
+D:/Inuitive/Private/Thesis/GA/GA-Yang/ChromosomeMooney.h:86: warning: argument 'snpDistribution' of command @param is not found in the argument list of CChromosomeMooney::CrossOver(CChromosomeMooney &mate, default_random_engine &randomEngine, uniform_int_distribution< unsigned int > &chormosomeDistribution)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/ChromosomeMooney.h:86: warning: The following parameters of CChromosomeMooney::CrossOver(CChromosomeMooney &mate, default_random_engine &randomEngine, uniform_int_distribution< unsigned int > &chormosomeDistribution) are not documented:
+  parameter 'chormosomeDistribution'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/ChromosomeYang.h:80: warning: argument 'snpDistribution' of command @param is not found in the argument list of CChromosomeYang::CrossOver(CChromosomeYang &mate, default_random_engine &randomEngine, uniform_int_distribution< unsigned int > &chormosomeDistribution)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/ChromosomeYang.h:80: warning: The following parameters of CChromosomeYang::CrossOver(CChromosomeYang &mate, default_random_engine &randomEngine, uniform_int_distribution< unsigned int > &chormosomeDistribution) are not documented:
+  parameter 'chormosomeDistribution'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/GeneticAlgorithm - Copy.h:90: warning: argument 'outputFile' of command @param is not found in the argument list of CGeneticAlgorithm::PrintResults(const CPopulation &population, const vector< const CChromosome * > &iDifferentChromosmes, time_t startTime, uint32_t iElitismNum)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/GeneticAlgorithm - Copy.h:90: warning: The following parameters of CGeneticAlgorithm::PrintResults(const CPopulation &population, const vector< const CChromosome * > &iDifferentChromosmes, time_t startTime, uint32_t iElitismNum) are not documented:
+  parameter 'iDifferentChromosmes'
+  parameter 'iElitismNum'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/GeneticAlgorithm.h:102: warning: argument 'outputFile' of command @param is not found in the argument list of CGeneticAlgorithm::PrintResults(const CPopulation &population, const vector< const CChromosome * > &iDifferentChromosmes, time_t startTime, uint32_t iElitismNum)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/GeneticAlgorithm.h:102: warning: The following parameters of CGeneticAlgorithm::PrintResults(const CPopulation &population, const vector< const CChromosome * > &iDifferentChromosmes, time_t startTime, uint32_t iElitismNum) are not documented:
+  parameter 'iDifferentChromosmes'
+  parameter 'iElitismNum'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/Population.h:18: warning: The following parameters of CPopulation::CPopulation(default_random_engine &randomEngine, CGenotypeData &genotypeData, unsigned int numberOfSNPs, unsigned int numberOfGeneotype) are not documented:
+  parameter 'numberOfGeneotype'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/Population.h:47: warning: argument 'iNumberOfSolutions' of command @param is not found in the argument list of CPopulation::DifferentChromosomes(vector< const CChromosome * > &oChromosomes, int ioNumberOfSolutions=-1) const =0
+D:/Inuitive/Private/Thesis/GA/GA-Yang/Population.h:47: warning: The following parameters of CPopulation::DifferentChromosomes(vector< const CChromosome * > &oChromosomes, int ioNumberOfSolutions=-1) const =0 are not documented:
+  parameter 'ioNumberOfSolutions'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationMooney.h:73: warning: argument 'first' of command @param is not found in the argument list of CPopulationMooney::CheckForDuplication(const CChromosomeMooney &input, unsigned int currentIndex)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationMooney.h:73: warning: The following parameters of CPopulationMooney::CheckForDuplication(const CChromosomeMooney &input, unsigned int currentIndex) are not documented:
+  parameter 'input'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationMooney.h:52: warning: argument 'iNumberOfSolutions' of command @param is not found in the argument list of CPopulationMooney::DifferentChromosomes(vector< const CChromosome * > &oChromosomes, int ioNumberOfSolutions=-1) const inherited from member DifferentChromosomes at line 47 in file D:/Inuitive/Private/Thesis/GA/GA-Yang/Population.h
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationMooney.h:52: warning: The following parameters of CPopulationMooney::DifferentChromosomes(vector< const CChromosome * > &oChromosomes, int ioNumberOfSolutions=-1) const are not documented:
+  parameter 'ioNumberOfSolutions'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationYang.h:76: warning: argument 'first' of command @param is not found in the argument list of CPopulationYang::CheckForDuplication(const CChromosomeYang &input, unsigned int currentIndex)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationYang.h:76: warning: The following parameters of CPopulationYang::CheckForDuplication(const CChromosomeYang &input, unsigned int currentIndex) are not documented:
+  parameter 'input'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationYang.h:55: warning: argument 'iNumberOfSolutions' of command @param is not found in the argument list of CPopulationYang::DifferentChromosomes(vector< const CChromosome * > &oChromosomes, int ioNumberOfSolutions=-1) const inherited from member DifferentChromosomes at line 47 in file D:/Inuitive/Private/Thesis/GA/GA-Yang/Population.h
+D:/Inuitive/Private/Thesis/GA/GA-Yang/PopulationYang.h:55: warning: The following parameters of CPopulationYang::DifferentChromosomes(vector< const CChromosome * > &oChromosomes, int ioNumberOfSolutions=-1) const are not documented:
+  parameter 'ioNumberOfSolutions'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/RouletteWheelSelection.h:22: warning: The following parameters of CRouletteWheelSelection::Select(const CPopulation &population, default_random_engine &randomEngine, unsigned int skip=UINT_MAX) are not documented:
+  parameter 'randomEngine'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/Selection.h:39: warning: The following parameters of CSelection::Select(const CPopulation &population, default_random_engine &randomEngine, unsigned int skip=UINT_MAX)=0 are not documented:
+  parameter 'randomEngine'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/TournamentSelection.h:22: warning: The following parameters of CTournamentSelection::Select(const CPopulation &population, default_random_engine &randomEngine, unsigned int skip=UINT_MAX) are not documented:
+  parameter 'randomEngine'
+D:/Inuitive/Private/Thesis/GA/GA-Yang/YangData.h:25: warning: argument 'fileName' of command @param is not found in the argument list of CYangData::LoadLine(const string &line, vector< CSnpData > &snpSet, vector< vector< BYTE >> &dataSet)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/YangData.h:25: warning: argument 'totalSnp' of command @param is not found in the argument list of CYangData::LoadLine(const string &line, vector< CSnpData > &snpSet, vector< vector< BYTE >> &dataSet)
+D:/Inuitive/Private/Thesis/GA/GA-Yang/YangData.h:25: warning: The following parameters of CYangData::LoadLine(const string &line, vector< CSnpData > &snpSet, vector< vector< BYTE >> &dataSet) are not documented:
+  parameter 'line'
+  parameter 'snpSet'

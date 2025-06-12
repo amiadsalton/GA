@@ -1,0 +1,55 @@
+# Input Directory
+Dir=Hapmap\BC3x1.5-0.66k-5k
+# Case dataset file
+Case=case_genotypes_14381.dat
+# Control dataset file
+Control=anticase_genotypes_14381.dat
+# Chromosome Length - number of SNPs in each chromosome
+Length=0
+# Maximumt number of iterations: it is related to number of runs:  (current Run/ Number of Runs) * "Iterations"
+Iterations=1000
+# Population Maximum size. The actuatl size is calculated automatically by algorithm as function of Number of SNPs and chromosome's length.
+# The formual for size is: min(  0.2 * numberOfSNPs *  "Length" , "Size")   
+Size=5000
+# Genotype data provider: 0 - Hap sample , 1 - Synthetic, 2 Yang Data
+Provider=0
+# Genotype data provider: 0 - Roulette Wheel, 1- Tournament 
+SelectionAlgorithm=0
+# Elitism rate: range [0-1]
+Elitism=0.03
+# Crossover rate: range [0-1]
+Crossover=0.75
+# Mutation rate (relates to total number of nucleotides in population): range [0-1]
+Mutation=0.05
+# Trap in local maximum 
+# ratio of number of generations, that is used to identify situtation where the algorithm is trap in local maximum. % of number of iterations 
+# range [0-1]
+TrapRatio=0.02
+# Vibration rate 
+# ratio of chromosomes to replace when the algorithm is stuck in local maximum
+# range [0-1]
+Vibration=0.5
+# Algorithm: 0 - Yang, 1 - Mooney
+Algorithm=1
+# % of Number of input SNPs to display
+DisplayRatio=0.05
+# Barcode to look for
+Barcode=rs722208,rs6486431,rs144848
+#Barcode=rs722208,rs6486431,rs144848,rs8070179,rs738722  
+#Barcode=rs1343747,rs6759198,rs1501622,rs10516159,rs1969025
+#Barcode=rs10001539,rs1434274,rs7961672,rs1097867,rs3745340
+#Barcode=rs7425420,rs10934321,rs10001539,rs12596025,rs882016
+#Barcode=rs49,rs99,rs149,rs249,rs399,rs449
+#Barcode=rs49,rs149,rs249,rs399,rs449
+#Barcode=rs1343747,rs10495481,rs1491520,rs2097081,rs3899033,rs9392298
+#Barcode=rs1501622,rs1343747,rs10495481,rs1491520,rs2097081,
+#Barcode=rs10516182,rs6759198,rs1343747
+##Barcode=SNP1,SNP2
+# Ignore homogeneous SNPs (which one of the three genotypes exceeds this ratio)
+HomogeneousRatio=1.0
+# How many executions per Run 
+NumberOfExecutions=10
+# If there is no change in this number of generations, then execution is stuck 
+ExecutionIsStcuk=10
+# How many runs in order to find the best choromose (when length is not known in  advanced)
+NumberOfRuns=6

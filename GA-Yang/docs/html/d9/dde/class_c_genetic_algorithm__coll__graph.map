@@ -1,0 +1,14 @@
+<map id="CGeneticAlgorithm" name="CGeneticAlgorithm">
+<area shape="rect" id="node2" href="$d6/dcf/class_c_chromosome.html" title="CChromosome is one element in GA population. " alt="" coords="1103,717,1297,1103"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="1193,147,1273,224"/>
+<area shape="rect" id="node11" href="$df/d02/struct_c_genotype_data_1_1_c_snp_data.html" title="Input data for one SNP. " alt="" coords="1004,287,1185,393"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="1170,5,1297,97"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="547,301,661,379"/>
+<area shape="rect" id="node8" href="$da/def/class_c_post_processing_alg.html" title="{CPostProcessingAlg\n|# mNumberOfFitnessCalcualtions\l|+ ~CPostProcessingAlg()\l+ Update()\l+ Execute()\l+ UpdateGenotypeData()\l+ Print()\l+ CreateConcrete()\l# CPostProcessingAlg()\l# DerivedExecute()\l}" alt="" coords="415,820,631,1000"/>
+<area shape="rect" id="node9" href="$da/dee/class_c_genotype_data.html" title="Interface for case and control dataset. " alt="" coords="876,820,1079,1000"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="1403,871,1501,949"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="1473,471,1609,563"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="1475,294,1608,386"/>
+<area shape="rect" id="node19" title="STL class. " alt="" coords="1464,147,1619,224"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="1491,13,1591,90"/>
+</map>

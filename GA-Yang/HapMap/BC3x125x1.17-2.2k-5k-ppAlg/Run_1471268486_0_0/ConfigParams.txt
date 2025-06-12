@@ -1,0 +1,71 @@
+# Input Directory
+Dir=HapMap\BC3x125x1.17-2.2k-5k
+# Case dataset file
+Case=case_genotypes_14381.dat
+# Control dataset file
+Control=anticase_genotypes_14381.dat
+# Chromosome Length - number of SNPs in each chromosome
+Length=3
+# Number of iterations: 
+Iterations=150
+# Population Maximum size. The actuatl size is calculated automatically by algorithm as function of Number of SNPs and chromosome's length.
+# The formual for size is: min(  numberOfSNPs /  "Length" , "Size")   
+Size=300
+# Genotype data provider: 0 - Hap sample , 1 - Synthetic, 2 Yang Data, 3 Crohn data 
+Provider=0
+# Genotype data provider: 0 - Roulette Wheel, 1- Tournament 
+SelectionAlgorithm=0
+# Elitism rate: range [0-1]
+Elitism=0.05
+# Crossover rate: range [0-1]
+Crossover=0.75
+# Mutation rate (relates to total number of nucleotides in population): range [0-1]
+Mutation=0.05
+# Trap in local maximum 
+# ratio of number of generations, that is used to identify situtation where the algorithm is trap in local maximum. % of number of iterations 
+# range [0-1]
+TrapRatio=0.02
+# Vibration rate 
+# ratio of chromosomes to replace when the algorithm is stuck in local maximum
+# range [0-1]
+Vibration=0.5
+# Algorithm: 0 - Yang, 1 - Mooney
+Algorithm=0
+# % of Number of input SNPs to display
+DisplayRatio=0.05
+# Barcode to look for
+#Barcode=rs13135319,rs3740153,rs469490
+#Barcode=rs11890152,rs4982547,rs6004417
+#Barcode=rs12464842,rs12674492,rs11642785,rs606478,rs12481867
+#Barcode=rs10493590,rs16888684,rs2714088,rs11659813,rs4820338
+#Barcode=rs3113766,rs12783041,rs11246794,rs4986938,rs12943696
+#Barcode=rs6858752,rs17143147,rs11136074,rs4786150,rs2249573
+#Barcode=rs6450474,rs3808088
+#Barcode=rs12125299,rs12107009,rs17118374,rs10743624,rs11077722
+Barcode=rs722208,rs6486431,rs144848
+#Barcode=rs722208,rs6486431,rs144848,rs8070179,rs738722
+#Barcode=rs1343747,rs6759198,rs1501622,rs10516159,rs1969025
+#Barcode=rs10001539,rs1434274,rs7961672,rs1097867,rs3745340
+#Barcode=rs7425420,rs10934321,rs10001539,rs12596025,rs882016
+#Barcode=rs7425420,rs10934321,rs10001539
+#Barcode=rs49,rs99,rs149,rs249,rs399,rs449
+#Barcode=rs49,rs149,rs249,rs399,rs449
+#Barcode=rs1343747,rs10495481,rs1491520,rs2097081,rs3899033,rs9392298
+#Barcode=rs1501622,rs1343747,rs10495481,rs1491520,rs2097081,
+#Barcode=rs10516182,rs6759198,rs1343747
+#Barcode=SNP1,SNP2
+# Ignore homogeneous SNPs (which one of the three genotypes exceeds this ratio)
+HomogeneousRatio=1.0
+# Ignore SNPs that have more Genotype 2 in  control: 1 - ignore, 0 - don't
+IgnoreGenotype2=0
+# How many executions per Run 
+NumberOfExecutions=10
+# If there is no change in this number of generations, then execution is stuck 
+ExecutionIsStcuk=10
+# How many runs in order to find the best choromose (when length is not known in  advanced)
+NumberOfOrders=8
+# Post  Processing algorithm:  0 - Clustering fitness, 1 - Clustering   position, 2 - Clustering  sum, 3 - Continuity, 4 - All,
+PostProcessing=0
+# Stop the algorithm if for there are more than 2 Runs with degredation in  Fitness. 
+# The provided number defines from which Run (order) the Halt cretiria should be applied (3 is the default)
+HaltCriteria=6

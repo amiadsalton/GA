@@ -1,0 +1,36 @@
+# Input Directory
+Dir=HapMap\11_15_2014-10_8_42_749-500-030304
+# Case dataset file
+Case=case_genotypes_14381.dat
+# Control dataset file
+Control=anticase_genotypes_14381.dat
+# Chromosome Length - number of SNPs in each chromosome
+Length=4
+# Number of iterations 
+Iterations=1500
+# Population size, must be even
+Size=3000
+# Genotype data provider: 0 - Hap sample 
+Provider=0
+# Genotype data provider: 0 - Roulette Wheel, 1- Tournament 
+SelectionAlgorithm=0
+# Elitism rate: range [0-1]
+Elitism=0.03
+# Crossover rate: range [0-1]
+Crossover=0.75
+# Mutation rate (relates to total number of nucleotides in population): range [0-1]
+Mutation=0.05
+# Trap in local maximum 
+# ratio of number of iteration, that is used to identify situtation where the algorithm is trap in local maximum
+# range [0-1]
+TrapRatio=0.01
+# Vibration rate 
+# ratio of chromosomes to replace when the algorithm is stuck in local maximum
+# range [0-1]
+Vibration=0.2
+# Algorithm: 0 - Yang, 1 - Mooney
+Algorithm=0
+# % of Number of input SNPs to display
+DisplayRatio=0.03
+# Barcode to look for
+Barcode=rs676292,rs6759198,rs2367128,rs10516182

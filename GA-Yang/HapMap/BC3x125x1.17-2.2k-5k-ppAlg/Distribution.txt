@@ -1,0 +1,16 @@
+# Output Directory
+Dir=
+# Barcode length
+Length=3
+# Selected SNPs
+Selected=rs722208,rs6486431,rs144848,rs1799949,rs738722  
+# MAF for input choromomes (length)
+MAF=0.275,0.125,0.29166666666667,0.35,0.366666666667
+# Base for minimum gradient that is created by power of 2 (when all genotypes are of type 2)
+GradientBase=5
+# Exponent for minimum gradient that is created by power of 2 (when all genotypes are of type 2)
+GradientExponent=1.0
+# Factors that give piority to combinations with multiple gentotype  "2". It creates the gradient. 
+# Values are double precision numbers, starting from factor for 0 occurences of genotype 2 (build by 1.02 in power of 2: 0, 1, 4,8,12,16,20,32,)
+Factors=1.0,1.02,1.0824,1.1717,1.2684,1.3728,1.4859,1.8845
+
