@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HapSample", "HapSample.vcxproj", "{77DA6E62-830E-4917-AACA-2D66B3797758}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CleanCEUList", "..\CleanCEUList\CleanCEUList.vcxproj", "{9300D167-95B5-446E-A707-78B058B79AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Debug|Win32.Build.0 = Debug|Win32
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Debug|x64.ActiveCfg = Debug|x64
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Debug|x64.Build.0 = Debug|x64
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Release|Win32.ActiveCfg = Release|Win32
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Release|Win32.Build.0 = Release|Win32
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Release|x64.ActiveCfg = Release|x64
+		{77DA6E62-830E-4917-AACA-2D66B3797758}.Release|x64.Build.0 = Release|x64
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Debug|Win32.Build.0 = Debug|Win32
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Debug|x64.ActiveCfg = Debug|x64
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Debug|x64.Build.0 = Debug|x64
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Release|Win32.ActiveCfg = Release|Win32
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Release|Win32.Build.0 = Release|Win32
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Release|x64.ActiveCfg = Release|x64
+		{9300D167-95B5-446E-A707-78B058B79AD4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
